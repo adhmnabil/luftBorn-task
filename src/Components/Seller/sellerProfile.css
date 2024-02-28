@@ -1,0 +1,55 @@
+.sellerProfile{
+    background-color: #5747EA;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.sellerProfile p{
+    color: #BBC0FF;
+    font-size: 20px;
+}
+.reportsPart{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.spans{
+    display: flex;
+    flex-direction: column;
+    gap: 5px; 
+}
+.reportsPart span{
+font-size: 50px;
+color: #FFFFFF;
+letter-spacing: 10px;
+}
+.img{
+    text-align: center;
+}
+.img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+@media screen and (max-width: 800px) {
+    .sellerProfile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px
+    }
+    .sellerProfile p{
+        color: #BBC0FF;
+        font-size: 10px;
+    }
+    .reportsPart span{
+        font-size: 20px;
+        color: #FFFFFF;
+        letter-spacing: 0px;
+        }
+        .spans{
+            flex-direction: row;
+        }
+  }
